@@ -1,5 +1,9 @@
 <script>
-    export let name;
+    import {AcmeService} from "./services/AcmeService";
+    const service = new AcmeService();
+
+    service.doAsyncStuff('https://api.ipify.org/?format=json');
+
 </script>
 
 <style>

@@ -19,6 +19,8 @@
     "author": "Mattias Hising <mattias@yetric.com>",
     "license": "MIT",
     "dependencies": {
+        "@datorama/akita": "^4.10.3",
+        "mobx": "^5.13.0",
         "svelte": "^3.12.1"
     },
     "devDependencies": {
