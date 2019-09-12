@@ -1,5 +1,8 @@
 <script>
     import {AcmeService} from "./services/AcmeService";
+    import {HttpClient} from "./core/HttpClient";
+
+    const httpClient = new HttpClient();
     const service = new AcmeService();
 
     service.doAsyncStuff('https://api.ipify.org/?format=json');

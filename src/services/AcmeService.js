@@ -1,10 +1,12 @@
+import {AcmeStore} from "../stores/AcmeStore";
+
 export class AcmeService {
 
     acmeStore;
     http;
 
-    constructor(acmeStore, httpClient) {
-        this.acmeStore = acmeStore;
+    constructor(httpClient) {
+        this.acmeStore = new AcmeStore();
         this.http = httpClient;
     }
 
