@@ -1,0 +1,36 @@
+{
+    "name": "sveltejs-reactive-stores",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "webpack-dev-server --content-base dist --mode=development",
+        "build": "cross-env NODE_ENV=production webpack --mode=production",
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hising/sveltejs-reactive-stores.git"
+    },
+    "keywords": [
+        "svelte",
+        "reactive",
+        "store",
+        "flux"
+    ],
+    "author": "Mattias Hising <mattias@yetric.com>",
+    "license": "MIT",
+    "dependencies": {
+        "svelte": "^3.12.1"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.1",
+        "css-loader": "^3.2.0",
+        "html-webpack-plugin": "^4.0.0-beta.8",
+        "mini-css-extract-plugin": "^0.8.0",
+        "prettier": "^1.18.2",
+        "style-loader": "^1.0.0",
+        "svelte-loader": "^2.13.6",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.8",
+        "webpack-dev-server": "^3.8.0"
+    }
+}
